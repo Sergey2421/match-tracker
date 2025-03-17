@@ -3,8 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Sergey2421.github.io/match-tracker/",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "tsc -b && vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
