@@ -1,11 +1,10 @@
 import Logo from "../../assets/Logo.tsx";
-import {useState} from "react";
 import './Header.css'
 import Refresh from "../../assets/Refresh.tsx";
 import Alert from "../../assets/Alert.tsx";
 
 
-const Header = ({isFetching, error, refresh}: {isFetching: boolean, error: unknown, refresh: any}) => {
+const Header = ({isFetching, error, refresh}: {isFetching: boolean, error: unknown, refresh: never}) => {
 
     return (
         <div className="header-container">
