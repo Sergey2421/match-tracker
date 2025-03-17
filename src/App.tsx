@@ -1,6 +1,6 @@
-import {useEffect, useState} from "react";
 import axios from 'axios'
 import MatchTracker from "./components/MatchTracker/MatchTracker.tsx";
+// @ts-ignore
 import './App.css'
 import Header from "./components/Header/Header.tsx";
 import {useQuery, useQueryClient} from "react-query";

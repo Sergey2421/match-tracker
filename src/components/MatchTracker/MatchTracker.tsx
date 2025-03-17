@@ -1,10 +1,11 @@
 import Match from "../Match/Match.tsx";
+// @ts-ignore
 import './MatchTracker.css'
 
 type Team = {
     name: string;
     place: number;
-    players: any;
+    players: unknown;
     points: number;
     total_kills: number;
 }

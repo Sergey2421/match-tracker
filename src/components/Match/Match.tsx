@@ -1,4 +1,5 @@
 import {MatchI} from "../MatchTracker/MatchTracker.tsx"
+// @ts-ignore
 import './Match.css'
 import TeamLogo from "../../assets/TeamLogo.tsx";
 

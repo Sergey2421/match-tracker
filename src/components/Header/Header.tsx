@@ -1,4 +1,5 @@
 import Logo from "../../assets/Logo.tsx";
+// @ts-ignore
 import './Header.css'
 import Refresh from "../../assets/Refresh.tsx";
 import Alert from "../../assets/Alert.tsx";
