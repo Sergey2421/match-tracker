@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  //base: 'https://Sergey2421.github.io/match-tracker/'
+  base: 'https://Sergey2421.github.io/match-tracker/'
 })
